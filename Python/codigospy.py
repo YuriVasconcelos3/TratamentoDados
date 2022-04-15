@@ -12,27 +12,27 @@ def tabela1():
       lista1.append(lista[0][c])
       if c == 0:
         lista1.append('INT NOT NULL,')
-      if c == 1:
+      elif c == 1:
         lista1.append('INT NOT NULL,')
-      if c == 2:
+      elif c == 2:
         lista1.append('VARCHAR(60) NOT NULL,')
-      if c == 3:
+      elif c == 3:
         lista1.append('INT NOT NULL,')
-      if c == 4:
+      elif c == 4:
         lista1.append('VARCHAR(45) NOT NULL,')
-      if c == 5:
+      elif c == 5:
         lista1.append('VARCHAR(45) NOT NULL,')
-      if c == 6:
+      elif c == 6:
         lista1.append('VARCHAR(5),')
-      if c == 7:
+      elif c == 7:
         lista1.append('VARCHAR(45) NOT NULL,')
-      if c == 8:
+      elif c == 8:
         lista1.append('INT NOT NULL,')
-      if c == 9:
+      elif c == 9:
         lista1.append('DATETIME NOT NULL,')
-      if c == 10:
+      elif c == 10:
         lista1.append('VARCHAR(45) NOT NULL,')
-      if c == 11:
+      elif c == 11:
         lista1.append('DATETIME NOT NULL,')       
     
     lista1.append('PRIMARY KEY (_ID)')
